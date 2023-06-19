@@ -42,25 +42,25 @@ int main() {
 void inicializar_tablero() {
     // 
     // Inicializar piezas negras
-    tablero[0][0] = '';
-    tablero[0][1] = '';
-    tablero[0][2] = '';
-    tablero[0][3] = '';
-    tablero[0][4] = '';
-    tablero[0][5] = '';
-    tablero[0][6] = '';
-    tablero[0][7] = '';
-    // tablero[0][0] = 'T'
-    // tablero[0][1] = 'C'
-    // tablero[0][2] = 'A'
-    // tablero[0][3] = 'Q'
-    // tablero[0][4] = 'K'
-    // tablero[0][5] = 'A'
-    // tablero[0][6] = 'C'
-    // tablero[0][7] = 'T'
+    // tablero[0][0] = '';
+    // tablero[0][1] = '';
+    // tablero[0][2] = '';
+    // tablero[0][3] = '';
+    // tablero[0][4] = '';
+    // tablero[0][5] = '';
+    // tablero[0][6] = '';
+    // tablero[0][7] = '';
+    tablero[0][0] = 'T';
+    tablero[0][1] = 'C';
+    tablero[0][2] = 'A';
+    tablero[0][3] = 'Q';
+    tablero[0][4] = 'K';
+    tablero[0][5] = 'A';
+    tablero[0][6] = 'C';
+    tablero[0][7] = 'T';
     for (int i=0; i<TAM_TABLERO; i++) {
-        tablero[1][i] = '';
-        // tablero[1][i] = 'P'
+        // tablero[1][i] = '';
+        tablero[1][i] = 'P';
     }
 
     // Inicializar espacio vacío
@@ -72,25 +72,25 @@ void inicializar_tablero() {
 
     // Inicializar piezas blancas
     for (int i=0; i<TAM_TABLERO; i++) {
-        tablero[6][i] = '';
-        // tablero[6][i] = 'P'
+        // tablero[6][i] = '';
+        tablero[6][i] = 'P';
     }
-    tablero[7][0] = '';
-    tablero[7][1] = '';
-    tablero[7][2] = '';
-    tablero[7][3] = '';
-    tablero[7][4] = '';
-    tablero[7][5] = '';
-    tablero[7][6] = '';
-    tablero[7][7] = '';
-    // tablero[7][0] = 'T'
-    // tablero[7][1] = 'C'
-    // tablero[7][2] = 'A'
-    // tablero[7][3] = 'Q'
-    // tablero[7][4] = 'K'
-    // tablero[7][5] = 'A'
-    // tablero[7][6] = 'C'
-    // tablero[7][7] = 'T'
+    // tablero[7][0] = '';
+    // tablero[7][1] = '';
+    // tablero[7][2] = '';
+    // tablero[7][3] = '';
+    // tablero[7][4] = '';
+    // tablero[7][5] = '';
+    // tablero[7][6] = '';
+    // tablero[7][7] = '';
+    tablero[7][0] = 'T';
+    tablero[7][1] = 'C';
+    tablero[7][2] = 'A';
+    tablero[7][3] = 'Q';
+    tablero[7][4] = 'K';
+    tablero[7][5] = 'A';
+    tablero[7][6] = 'C';
+    tablero[7][7] = 'T';
 }
 
 void imprimir_tablero() {
